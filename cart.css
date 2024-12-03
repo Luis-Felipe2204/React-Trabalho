@@ -1,0 +1,29 @@
+.cart-container {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.product-details {
+  flex: 1;
+}
